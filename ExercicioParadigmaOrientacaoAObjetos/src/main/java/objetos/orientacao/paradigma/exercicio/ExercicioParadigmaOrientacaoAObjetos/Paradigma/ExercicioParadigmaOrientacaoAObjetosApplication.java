@@ -1,6 +1,5 @@
-package objetos.orientacao.paradigma.exercicio.ExercicioParadigmaOrientacaoAObjetos;
+package objetos.orientacao.paradigma.exercicio.ExercicioParadigmaOrientacaoAObjetos.Paradigma;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /*Crie uma classe Carro. Nessa classe você deverá ter a quantidade de pessoas que estão dentro do carro.

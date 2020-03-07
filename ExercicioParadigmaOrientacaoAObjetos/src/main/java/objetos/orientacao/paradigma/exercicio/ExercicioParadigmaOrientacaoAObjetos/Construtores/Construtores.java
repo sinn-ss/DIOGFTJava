@@ -1,6 +1,5 @@
-package objetos.orientacao.paradigma.exercicio.ExercicioParadigmaOrientacaoAObjetos;
+package objetos.orientacao.paradigma.exercicio.ExercicioParadigmaOrientacaoAObjetos.Construtores;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /*

@@ -1,13 +1,8 @@
-package objetos.orientacao.paradigma.exercicio.ExercicioParadigmaOrientacaoAObjetos;
+package objetos.orientacao.paradigma.exercicio.ExercicioParadigmaOrientacaoAObjetos.Construtores;
 
 public class Carro {
-    private int numeroPessoas=1;
     private String marca, modelo, variante;
     private int ano;
-
-    public Carro (){
-
-    }
 
     public Carro (String marca, String modelo, int ano){
         this.marca = marca;
@@ -53,17 +48,4 @@ public class Carro {
     public void setVariante(String variante){
         this.variante = variante;
     }
-
-    public Integer getNumeroPessoas(){
-        return numeroPessoas;
-    }
-
-    public void adicionaPessoas(){
-        this.numeroPessoas++;
-    }
-
-    public void removePessoas(){
-        this.numeroPessoas--;
-    }
-
 }
