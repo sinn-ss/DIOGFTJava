@@ -1,22 +1,69 @@
 package objetos.orientacao.paradigma.exercicio.ExercicioParadigmaOrientacaoAObjetos;
 
-/*Crie uma classe Carro. Nessa classe você deverá ter a quantidade de pessoas que estão dentro do carro.
-E também é preciso que tenha uma forma de adicionar e remover pessoas de dentro do carro
- */
-
 public class Carro {
     private int numeroPessoas=1;
+    private String marca, modelo, variante;
+    private int ano;
+
+    public Carro (){
+
+    }
+
+    public Carro (String marca, String modelo, int ano){
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+    }
+
+    public Carro (String marca, String modelo, int ano, String variante){
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+        this.variante = variante;
+    }
+
+    public String getMarca(){
+        return marca;
+    }
+
+    public void setMarca(String marca){
+        this.marca = marca;
+    }
+
+    public String getModelo(){
+        return modelo;
+    }
+
+    public void setModelo(String modelo){
+        this.modelo = modelo;
+    }
+
+    public Integer getAno(){
+        return ano;
+    }
+
+    public void setAno(int ano){
+        this.ano = ano;
+    }
+
+    public String getVariante(){
+        return variante;
+    }
+
+    public void setVariante(String variante){
+        this.variante = variante;
+    }
 
     public Integer getNumeroPessoas(){
         return numeroPessoas;
     }
 
-    public Integer adicionaPessoas(){
-        return numeroPessoas += 1;
+    public void adicionaPessoas(){
+        this.numeroPessoas++;
     }
 
-    public Integer removePessoas(){
-        return numeroPessoas -= 1;
+    public void removePessoas(){
+        this.numeroPessoas--;
     }
 
 }
