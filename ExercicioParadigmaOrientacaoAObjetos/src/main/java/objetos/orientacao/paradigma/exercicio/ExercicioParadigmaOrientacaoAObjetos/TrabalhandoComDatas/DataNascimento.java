@@ -2,6 +2,10 @@ package objetos.orientacao.paradigma.exercicio.ExercicioParadigmaOrientacaoAObje
 import java.util.Calendar;
 import java.util.Date;
 
+//Descubra o Time in Millis do dia em que você nasceu
+//Converta em um objeto Date
+//Verifique se ele é anterior ou posterior a 15 de maio de 2010
+
 public class DataNascimento {
     public static void main(String[] args) {
 
